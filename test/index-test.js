@@ -35,10 +35,17 @@ describe('Fix the Scope', function() {
       expect(window.theFunk).toEqual('FUNKY!')
     })
   })
-
+  function yourAnimal() {
+      var animal = 'cat'
+      return animal;
+  }
 })
-var animal = 'dog'
 
 function myAnimal() {
-  return animal
+    var animal = 'dog'
+    return animal;
+}
+function yourAnimal() {
+    var animal = 'cat'
+    return animal;
 }
